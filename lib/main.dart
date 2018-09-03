@@ -6,13 +6,11 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    //final wordPair = WordPair.random();  // Delete this line
-
+    
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
         body: Center(
-          //child: Text(wordPair.asPascalCase), // Change the highlighted text to...
           child: RandomWords(), // ... this highlighted text
         ),
       ),
